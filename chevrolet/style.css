@@ -1,0 +1,17 @@
+
+header{
+    background: radial-gradient( white , grey);
+}
+nav{
+    background-color: grey;
+}
+#main-text{
+    font-size: 5rem;
+}
+.car-name{
+    color: black;
+}
+
+.text{
+    color: black;
+}

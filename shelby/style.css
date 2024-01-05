@@ -1,0 +1,9 @@
+header{
+    background: radial-gradient(skyblue, black);
+}
+nav{
+    background-color:rgb(17, 87, 114);
+}
+#main-text{
+    font-size: 7rem;
+}

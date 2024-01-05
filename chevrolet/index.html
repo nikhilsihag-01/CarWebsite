@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEVROLET</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../mediaquery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="img/chevrolet logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="../index.html">FORD</a></li>
+                <li><a href="#">CHEVROLET</a></li>
+                <li><a href="../shelby/index.html">SHELBY</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            
+            <h1 id="main-text">CHEVROLET</h1>
+            <img src="img/Chevrolet1.png" alt="" id="carimg">
+
+            <div class="car-details">
+                The Chevrolet Chevelle is a mid-sized automobile that was produced by Chevrolet in three generations for the 1964 through 1977 model years. Part of the General Motors (GM) A-body platform, the Chevelle was one of Chevrolet's most successful nameplates.
+            </div>
+            <div class="car-name">
+                1970 CHEVELLE
+            </div>
+            <div class="text">
+                <h1>
+                    CLASSIC CAR
+                </h1>
+                <p>
+                    The Charger ranked first in 13 U.S. states as the most searched collector car
+                </p>
+            </div>
+        </div>
+
+        <div class="car-buttons">
+            <img src="img/Chevrolet1.png" alt=""  onmouseover="changecar()">
+
+            <img src="img/Chevrolet2.png" alt="" 
+            onmouseover="changecar2()">
+            <img src="img/Chevrolet3.png" alt=""
+            onmouseover="changecar3()">
+        </div>
+    </header>
+    <script>
+        function changecar() {
+            document.getElementById("carimg").src= "img/Chevrolet1.png";
+        }
+        function changecar2() {
+            document.getElementById("carimg").src= "img/Chevrolet2.png"
+        }
+        function changecar3() {
+            document.getElementById("carimg").src= "img/Chevrolet3.png"
+        }
+    </script>
+</body>
+</html>

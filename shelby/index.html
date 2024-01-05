@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEVROLET</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../mediaquery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="img/Shelby Logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="../index.html">FORD</a></li>
+                <li><a href="../chevrolet/index.html">CHEVROLET</a></li>
+                <li><a href="#">SHELBY</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            
+            <h1 id="main-text">SHELBY</h1>
+            <img src="img/shelby1.png" alt="" id="carimg">
+
+            <div class="car-details">
+                The AC Cobra, sold in the United States as the Shelby Cobra and AC Shelby Cobra, is a sports car manufactured by British company AC Cars, with a Ford V8 engine. It was produced intermittently in both the United Kingdom and later the United States since 1962.        
+            </div>
+            <div class="car-name">
+                COBRA BACKDRAFT
+            </div>
+            <div class="text">
+                <h1>
+                    CLASSIC CAR
+                </h1>
+                <p>
+                    The Charger ranked first in 13 U.S. states as the most searched collector car
+                </p>
+            </div>
+        </div>
+
+        <div class="car-buttons">
+            <img src="img/shelby1.png" alt=""  onmouseover="changecar()">
+
+            <img src="img/shelby2.png" alt="" 
+            onmouseover="changecar2()">
+            <img src="img/shelby3.png" alt=""
+            onmouseover="changecar3()">
+        </div>
+    </header>
+    <script>
+        function changecar() {
+            document.getElementById("carimg").src= "img/shelby1.png";
+        }
+        function changecar2() {
+            document.getElementById("carimg").src= "img/shelby2.png"
+        }
+        function changecar3() {
+            document.getElementById("carimg").src= "img/shelby3.png"
+        }
+    </script>
+</body>
+</html>
